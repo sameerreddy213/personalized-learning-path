@@ -1,2 +1,33 @@
-﻿node_modules/
+# Dependencies
+node_modules/
 venv/
+
+# Build outputs
+dist/
+build/
+
+# Python
+*.pyc
+__pycache__/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Downloads
+*.crdownload
